@@ -9,4 +9,4 @@ vim.keymap.set("n", "gY", "<CMD>Glance type_definitions<CR>")
 vim.keymap.set("n", "gM", "<CMD>Glance implementations<CR>")
 
 -- comment-box
-vim.keymap.set({ "i", "n" }, "<A-x>", "<CMD>CBlcbox2<CR>")
+vim.keymap.set({ "i", "n", "v" }, "<A-x>", "<CMD>CBlcbox2<CR>")

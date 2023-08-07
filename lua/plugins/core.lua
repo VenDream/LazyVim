@@ -1,16 +1,20 @@
 return {
   -- colorscheme
   {
-    "ellisonleao/gruvbox.nvim",
+    "navarasu/onedark.nvim",
     opts = {
-      transparent_mode = true,
+      style = "dark",
+      transparent = false,
+      code_style = {
+        comments = 'none'
+      },
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme
-      colorscheme = "gruvbox",
+      colorscheme = "tokyonight",
     },
   },
 

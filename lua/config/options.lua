@@ -19,5 +19,4 @@ vim.g.moonlight_contrast = true
 vim.g.moonlight_borders = true
 vim.g.moonlight_disable_background = true
 
--- colorscheme [gruvbox] opts
-vim.o.background = "dark"
+-- vim.opt.background = 'light'
