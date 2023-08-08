@@ -1,20 +1,17 @@
 return {
   -- colorscheme
   {
-    "navarasu/onedark.nvim",
-    opts = {
-      style = "dark",
-      transparent = false,
-      code_style = {
-        comments = 'none'
-      },
-    },
+    "lifepillar/vim-gruvbox8",
+    branch = "neovim",
+    configs = function()
+    end
+    ,
   },
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme
-      colorscheme = "tokyonight",
+      colorscheme = "gruvbox8_hard",
     },
   },
 
